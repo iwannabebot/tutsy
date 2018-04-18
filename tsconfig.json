@@ -1,17 +1,11 @@
 {
     "compilerOptions": {
-        "allowJs": false,
-        "allowUnreachableCode": false,
-        "alwaysStrict": true,
-        "diagnostics": true,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "module": "es6",
-        "moduleResolution": "node",
-        "pretty": true,
-        "target": "es6",
-        "include":[
-            "src/**/*"
-        ]
-    }
+        "module": "none",
+        "target": "es5",
+        "declaration": true,
+        "outDir": "./dist"
+    },
+    "include": [
+        "src/**/*"
+    ]
 }
