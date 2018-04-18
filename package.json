@@ -1,0 +1,27 @@
+{
+  "name": "tutsi",
+  "version": "1.0.0",
+  "description": "simplest tutorial overlay",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwannabebot/tutsy.git"
+  },
+  "keywords": [
+    "overlay",
+    "tutorial",
+    "npm"
+  ],
+  "author": "iwannabrbot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwannabebot/tutsy/issues"
+  },
+  "homepage": "https://github.com/iwannabebot/tutsy#readme",
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
+}
