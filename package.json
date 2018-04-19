@@ -5,7 +5,15 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "",
+    "build:none": "tsc --p tsconfig.none.json",
+    "build:amd": "tsc --p tsconfig.amd.json",
+    "build:commonjs": "tsc --p tsconfig.commonjs.json",
+    "build:es6": "tsc --p tsconfig.es6.json",
+    "build:es2015": "tsc --p tsconfig.es2015.json",
+    "build:esnext": "tsc --p tsconfig.esnext.json",
+    "build:system": "tsc --p tsconfig.system.json",
+    "build:umd": "tsc --p tsconfig.umd.json"
   },
   "repository": {
     "type": "git",

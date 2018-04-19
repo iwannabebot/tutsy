@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
-        "module": "none",
+        "module": "umd",
         "target": "es5",
         "declaration": true,
-        "outDir": "./dist"
+        "outDir": "./dist/umd"
     },
     "include": [
         "src/**/*"
