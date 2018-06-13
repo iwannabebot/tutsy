@@ -1,19 +1,10 @@
 {
-  "name": "tutsi",
+  "name": "tutsy",
   "version": "1.0.0",
-  "description": "simplest tutorial overlay",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "description": "Simplest Tutorial Overlay",
+  "main": "index.js",
   "scripts": {
-    "build": "",
-    "build:none": "tsc --p tsconfig.none.json",
-    "build:amd": "tsc --p tsconfig.amd.json",
-    "build:commonjs": "tsc --p tsconfig.commonjs.json",
-    "build:es6": "tsc --p tsconfig.es6.json",
-    "build:es2015": "tsc --p tsconfig.es2015.json",
-    "build:esnext": "tsc --p tsconfig.esnext.json",
-    "build:system": "tsc --p tsconfig.system.json",
-    "build:umd": "tsc --p tsconfig.umd.json"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -24,13 +15,15 @@
     "tutorial",
     "npm"
   ],
-  "author": "iwannabrbot",
+  "author": "nilayvishwakarma",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/iwannabebot/tutsy/issues"
   },
   "homepage": "https://github.com/iwannabebot/tutsy#readme",
   "devDependencies": {
-    "typescript": "^2.8.1"
+    "concurrently": "^3.5.1",
+    "live-server": "^1.2.0",
+    "typescript": "^2.9.1"
   }
 }
